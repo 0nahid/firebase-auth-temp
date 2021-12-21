@@ -9,4 +9,3 @@
 # This is Just a templeate that you can use on your any build earlier or future build.
 
 # We appreciate your pull support.
-# firebase-auth-temp
