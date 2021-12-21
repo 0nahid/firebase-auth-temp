@@ -1,7 +1,10 @@
+import AuthProvider from "./Context/AuthProvider";
+import Home from "./Pages/Home";
+
 export default function App() {
   return (
-    <div>
-      <h1>This is a web app.</h1>
-    </div>
-  )
+    <AuthProvider>
+      <Home />
+    </AuthProvider>
+  );
 }
