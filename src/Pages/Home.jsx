@@ -8,7 +8,7 @@ export default function Home() {
       .then((error) => {});
   };
   return (
-    <div style={{textAlign:'center'}}>
+    <div style={{ textAlign: "center" }}>
       {user?.email ? (
         <button onClick={logout}>Logout</button>
       ) : (
@@ -26,7 +26,18 @@ export default function Home() {
       )}
       <h1>This is just a template of firebase Google Sign In</h1>
       <p>You can use this on your project</p>
-      <p>Github: <a target="_blank" href="/https://github.com/0nahid/firebase-auth-temp">firebase-auth-temp</a> </p>
+      <p>
+        {" "}
+        Github:{" "}
+        <a
+          className="App-link"
+          href="https:/github.com/0nahid/firebase-auth-temp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          firebase-auth-temp
+        </a>
+      </p>
     </div>
   );
 }
