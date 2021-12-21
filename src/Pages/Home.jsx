@@ -8,7 +8,7 @@ export default function Home() {
       .then((error) => {});
   };
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
       {user?.email ? (
         <button onClick={logout}>Logout</button>
       ) : (
@@ -24,6 +24,9 @@ export default function Home() {
           <h1>Hello {user.displayName}</h1>
         </div>
       )}
+      <h1>This is just a template of firebase Google Sign In</h1>
+      <p>You can use this on your project</p>
+      <p>Github: <a target="_blank" href="/https://github.com/0nahid/firebase-auth-temp">firebase-auth-temp</a> </p>
     </div>
   );
 }
