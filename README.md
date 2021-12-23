@@ -11,7 +11,18 @@
 # How to use this?
 
 - Clone the repo
-
-This is Just a templeate that you can use on your any build earlier or future build.
-
-We appreciate your pull support.
+  create a file named `.env.local`
+  add the following lines:
+  ```
+  REACT_APP_API_KEY=
+  REACT_APP_AUTH_DOMAIN=
+  REACT_APP_PROJECT_ID=
+  REACT_APP_STORAGE_BUCKET=
+  REACT_APP_MESSAGING_SENDER_ID=
+  REACT_APP_APP_ID=
+  REACT_APP_MEASUREMENT_ID=
+  ```
+  & replace with your own values.
+  
+<h4>This is Just a templeate that you can use on your any build earlier or future build.
+We appreciate your pull support.</h4>
